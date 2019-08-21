@@ -22,8 +22,7 @@ public class StudentController {
         mv.setViewName("student");
         return mv;
     }
-<<<<<<< Updated upstream
-=======
+
 
     @RequestMapping("/test")
     public ModelAndView test(){
@@ -31,5 +30,5 @@ public class StudentController {
         mv.setViewName("test");
         return mv;
     }
->>>>>>> Stashed changes
+
 }
